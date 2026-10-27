@@ -1,0 +1,20 @@
+CÓMO ABRIR EL PROYECTO
+======================
+
+1. Extraé esta carpeta completa en tu computadora.
+2. Abrí la carpeta jose desde Visual Studio Code.
+3. Abrí index.html y usá Live Server si lo tenés instalado; también podés abrir el HTML en el navegador.
+4. No muevas los archivos HTML, estilos.css, script.js ni la carpeta img: los enlaces dependen de esa estructura.
+
+DISEÑO Y GALERÍA
+================
+- estilos.css contiene los estilos azul y blanco y la cuadrícula de fotografías.
+- galeria.html usa las seis fotos que ya estaban incluidas en img.
+- Al seleccionar una foto, se abre ampliada; podés cerrarla con la X o con Escape.
+- Las imágenes de la galería son: recracionbañado.jpg, ciencias.jpg, cuentacuentos.jpg, pintura.jpg, matematica.jpg y recreo.jpg.
+
+ANTES DE ENTREGAR
+=================
+- Revisá los textos y confirmá que describan fielmente la experiencia del grupo.
+- Si aparecen nombres o datos que deban actualizarse, corregilos con autorización del equipo.
+- Verificá todos los enlaces y revisá la web en escritorio y celular.

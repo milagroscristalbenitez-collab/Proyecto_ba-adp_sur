@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Compartimos, Aprendemos y Servimos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+    </button>
+    <div class="menu-fondo"></div>
+
+    <div class="sitio">
+        <aside class="menu-lateral">
+            <div class="menu-marca">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo del proyecto">
+                    <span>
+                        <strong>Compartimos, Aprendemos y Servimos</strong>
+                        <small>Colegio San Miguel de Fe y Alegría</small>
+                    </span>
+                </a>
+            </div>
+            <nav>
+                <ul class="menu-lista">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="menu-desplegable">
+                        <button type="button" class="menu-actividades-btn" aria-expanded="false">Actividades</button>
+                        <ul class="submenu">
+                            <li><a href="recreacion.html">Recreación</a></li>
+                            <li><a href="club-ciencias.html">Club de Ciencias</a></li>
+                            <li><a href="cuentos.html">Cuenta Cuentos</a></li>
+                            <li><a href="arte.html">Club de Arte</a></li>
+                            <li><a href="refuerzo.html">Refuerzo Escolar</a></li>
+                            <li><a href="merienda.html">Merienda Compartida</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="reflexiones.html">Reflexiones</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <div class="cuerpo">
+            <main class="contenido">
+                <header class="encabezado-pagina">
+                    <span class="etiqueta">Nuestra experiencia en imágenes</span>
+                    <h1>Momentos que compartimos</h1>
+                    <p class="intro">
+                        Algunas imágenes que representan
+                        las actividades y experiencias del proyecto.
+                    </p>
+                </header>
+
+                <section class="galeria-intro js-scroll">
+                    <p>Un recorrido visual por las actividades que compartimos. Seleccioná una fotografía para verla más grande.</p>
+                    <div class="galeria-contadores"><span><strong>06</strong> fotografías</span><span><strong>06</strong> momentos para recordar</span></div>
+                </section>
+
+                <section class="galeria-grid js-scroll" aria-label="Fotografías del proyecto">
+                    <figure class="foto-card foto-destacada">
+                        <button class="foto-abrir" type="button" data-lightbox="img/compartir.jpg"   data-alt="Actividad recreativa en el Bañado Sur"><img src="img/compartir.jpg" alt="Actividad recreativa en el Bañado Sur" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Convivencia</span><h2>Compartir y disfrutar</h2><p>Momentos recreativos para encontrarnos y fortalecer la convivencia.</p></figcaption>
+                    </figure>
+                    <figure class="foto-card">
+                        <button class="foto-abrir" type="button" data-lightbox="img/aprender.jpg" data-alt="Actividad del Club de Ciencias"><img src="img/aprender.jpg" alt="Actividad del Club de Ciencias" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Curiosidad</span><h2>Aprender haciendo</h2><p>Descubrir, observar y aprender a través de la ciencia.</p></figcaption>
+                    </figure>
+                    <figure class="foto-card">
+                        <button class="foto-abrir" type="button" data-lightbox="img/cuento.jpg" data-alt="Actividad de cuenta cuentos"><img src="img/cuento.jpg" alt="Actividad de cuenta cuentos" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Lectura</span><h2>Historias que nos unen</h2><p>Un espacio para imaginar, escuchar y compartir historias.</p></figcaption>
+                    </figure>
+                    <figure class="foto-card">
+                        <button class="foto-abrir" type="button" data-lightbox="img/dibujo.jpg" data-alt="Actividad artística de pintura"><img src="img/dibujo.jpg" alt="Actividad artística de pintura" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Creatividad</span><h2>Crear con imaginación</h2><p>El arte como forma de expresión, creatividad y colaboración.</p></figcaption>
+                    </figure>
+                    <figure class="foto-card">
+                        <button class="foto-abrir" type="button" data-lightbox="img/equipo.jpg" data-alt="Actividad de refuerzo de matemáticas"><img src="img/equipo.jpg" alt="Actividad de refuerzo de matemáticas" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Aprendizaje</span><h2>Aprender en equipo</h2><p>Compartir conocimientos y acompañarnos en los desafíos escolares.</p></figcaption>
+                    </figure>
+                    <figure class="foto-card">
+                        <button class="foto-abrir" type="button" data-lightbox="img/encuentro.jpg" data-alt="Momento compartido durante la visita"><img src="img/encuentro.jpg" alt="Momento compartido durante la visita" loading="lazy"><span class="foto-ampliar" aria-hidden="true">↗</span></button>
+                        <figcaption><span class="foto-categoria">Encuentro</span><h2>Pequeños momentos, grandes recuerdos</h2><p>Una jornada construida con amabilidad, respeto y buena compañía.</p></figcaption>
+                    </figure>
+                </section>
+
+                <div class="lightbox" data-lightbox-modal aria-hidden="true" role="dialog" aria-label="Fotografía ampliada">
+                    <button class="lightbox-cerrar" type="button" aria-label="Cerrar fotografía">×</button>
+                    <img src="" alt="" data-lightbox-img>
+                    <p data-lightbox-caption></p>
+                </div>
+
+                <section class="bloque-texto js-scroll">
+                    <h2>Encargados</h2>
+                    <p>Estas fotografías acompañan nuestro recuerdo de la visita al Colegio San Miguel de Fe y Alegría. Cada actividad fue una oportunidad para compartir, aprender y servir. Las imágenes muestran una parte de la experiencia; lo más importante fue el encuentro y lo que nos llevamos de él.</p>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-contenido">
+                    <div class="footer-proyecto">
+                        <h2>Compartimos, Aprendemos y Servimos</h2>
+                        <p>Proyecto de Servicio - Bañado Sur</p>
+                        <p>Colegio San Miguel de Fe y Alegría</p>
+                    </div>
+                    <div class="footer-navegacion">
+                        <h3>Navegación</h3>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="galeria.html">Galería</a></li>
+                            <li><a href="reflexiones.html">Reflexiones</a></li>
+                            <li><a href="donaciones.html">Donaciones</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                     <div class="footer-autores">
+                        <h3>Desarrolladores principales</h3>
+                        <p>Patricio Astigarraga</p>
+                        <p>Jose Balbuena</p>
+                        <h3>Aportadores</h3>
+                        <p>
+                            Milagros Gómez, Vanessa Benitez,
+                            Florencia Coronel y Santiago Maciel
+                        </p>
+                       <h3>Fotografa</h3> 
+                       Vanessa Benitez 
+                    </div>
+                </div>
+                <div class="footer-final">
+                    <p>© 2026 Proyecto Bañado Sur</p>
+                    <p>Colegio Técnico Javier</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
